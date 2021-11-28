@@ -82,6 +82,7 @@ class LinkTargetValidChecker(
                     checkExternalLink(errors, href)
                 }
                 else -> {
+                    // TODO this here is wrong, if i like to "/bar.html" it will go to the current base ("http://localhost/foo/bar.html"), but it should go to the "http://localhost/bar.html"
                     val cleanedHrefPath = if (href.startsWith("/")) href else "$currentBase/$href"
                     checkPage(errors, cleanedHrefPath, url)
                 }

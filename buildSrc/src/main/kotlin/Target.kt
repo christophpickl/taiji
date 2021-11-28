@@ -13,7 +13,7 @@ sealed class Target(
 
 object LocalTarget : Target(
     id = "local",
-    websiteBaseUrl = "http://localhost",
+    websiteBaseUrl = "http://localhost/~cpickl/taiji",
 ) {
     @Suppress("MayBeConstant") // used in build.gradle.kts
     const val localWebRoot = "/Users/cpickl/Sites/taiji"
@@ -24,6 +24,5 @@ object LocalTarget : Target(
 
 object RemoteTarget : Target(
     id = "remote",
-    // TODO register host: https://cp1.awardspace.net/start/
     websiteBaseUrl = "http://taijiwiki.scienceontheweb.net",
 )

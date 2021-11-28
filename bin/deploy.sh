@@ -27,7 +27,7 @@ echo
 echo
 echo "[32mDeploy success 🙌🥳[0m"
 echo "Check the website here:"
-echo "http://psywiki.scienceontheweb.net/"
+echo "http://taijiwiki.scienceontheweb.net/"
 
 echo
 echo "Post deploy check ..."

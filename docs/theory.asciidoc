@@ -1,0 +1,37 @@
+= Theory
+
+== Names and Symbols
+
+*Taijiquan*, or mostly shortened to just *Taiji*, is the correct way of writing it based on the current, official link:https://en.wikipedia.org/wiki/Pinyin[Pinyin ]transcription system published by the Chinese government in the 1950s. You might come across quite often outdated written forms like *Tai Chi Chuan* or *Taichiquan* or *T'ai chi ch'ūan* which all basically referred to the same, but using the old, outdated link:https://en.wikipedia.org/wiki/Wade%E2%80%93Giles[Wade-Giles] transcription system. A transcription system tries to transfer the Chinese written language (the symbol doesn't relate to the way it is pronounced) into our phonetic writing systems, which can be quite a hard task to do because of the differences.
+
+Literally it can be translated to *Principle of Yin and Yang*. To be precise:
+
+* Tai - Supreme ultimate; like the main, center pole of a building holding the roof in its place.
+* Ji - Principle.
+* Quan - Literally fist, referring to boxing, or martial arts in general.
+
+The name Taijiquan is actually very recent invention (20th century) as it had many different names before that, along: Long boxing, shadow boxing, etc.
+
+.link:https://en.wikipedia.org/wiki/Taijitu[Taijitu] represents the Taiji principle
+image::taiji_logo.png[Taijitu,100,100]
+
+== Martial Art
+
+Taijiquan is a so-called internal martial art (_neijia_), referring to its emphasize on developing soft, internal energy (_jin_) rather then rigid, brute external force (_li_). And also for it's past secrecy, being taught only to people within (the family, the clan) in order to keep it inside.
+
+Next to Taijiquan being a martial art, it can be considered:
+
+* *Applied Philosophy* - Instead of just intellectualizing about theory, it is translated and experienced in movement.
+* *Dynamic Meditation* - Instead of a static, still position, we are working with attention, intention and focus while moving.
+* *Self Cultivation* - Like QiGong its original intention was to lead to eternal life.
+* *Spiritual Practice* - Embodying the universal forces within yourself.
+* *Health Gymnastics* - Working on the physical and "energetic" body.
+* *Gentle Workout* - Especially legs and butt due to the low stance, improving balance and body awareness in general.
+
+== Philosophy
+
+Chinese martial arts (as well as the culture in general) are built upon three basic philosophical streams:
+
+. Daoism
+. Confucianism
+. (Chan) Buddhism

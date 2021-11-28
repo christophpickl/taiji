@@ -1,13 +1,7 @@
-// https://asciidoctor.github.io/asciidoctor-gradle-plugin/development-3.x/user-guide/
-// doc: https://asciidoctor.github.io/asciidoctor-gradle-plugin/development-3.x/
-// src: https://github.com/asciidoctor/asciidoctor-gradle-plugin
-// project: https://asciidoctor.org/docs/asciidoctor-gradle-plugin/
-
 // -Ptarget=local
 val target: Target = Target.byId(project.findProperty("target") as? String ?: LocalTarget.id)
 
 repositories {
-//    jcenter() // don't delete, otherwise fails
     mavenCentral()
 }
 
@@ -21,10 +15,10 @@ tasks {
         doFirst {
             println("asciidoctor: source=${Locations.sourceDirectory} output=${Locations.htmlBuildOutput}")
         }
+        // options(mapOf("doctype" to "book", "ruby" to "erubis"))
         attributes = mapOf(
-            // https://docs.asciidoctor.org/asciidoctor/latest/html-backend/default-stylesheet/#customize-docinfo
-//            "docinfo" to "shared"
-            "stylesheet" to "custom.css"
+            "stylesheet" to "custom.css",
+            "toc" to "left",
         )
         sourceDir(Locations.sourceDirectory)
         setOutputDir(Locations.htmlBuildOutput)
@@ -51,7 +45,6 @@ when (target) {
             println("Local deploy to: ${LocalTarget.localWebRoot}")
         }
         from(Locations.htmlBuildOutput)
-        //include("**/*.jpg")
         into(LocalTarget.localWebRoot)
     }
     RemoteTarget -> tasks.create<FtpDeployTask>("deploy") {
@@ -65,12 +58,6 @@ when (target) {
         localBuildDirectory = Locations.htmlBuildOutput.absolutePath
     }
 }
-
-
-//TODO tasks.named("deploy") {
-//    dependsOn(tasks.clean, tasks.build)
-//    dependsOn("clean", "build")
-//}
 
 // ./gradlew -q linkChecker
 tasks.create<LinkCheckerTask>("linkChecker") {
