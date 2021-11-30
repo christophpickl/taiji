@@ -1,6 +1,3 @@
-// -Ptarget=local
-val target: Target = Target.byId(project.findProperty("target") as? String ?: LocalTarget.id)
-
 repositories {
     mavenCentral()
 }
@@ -8,7 +5,6 @@ repositories {
 plugins {
     id("org.asciidoctor.jvm.convert") version "3.1.0"
 }
-
 
 tasks {
     "asciidoctor"(org.asciidoctor.gradle.jvm.AsciidoctorTask::class) {
@@ -39,42 +35,29 @@ tasks.build {
     dependsOn("asciidoctor")
 }
 
-when (target) {
-    LocalTarget -> {
-        tasks.register<GradleBuild>("deploy") {
-            tasks = listOf("copyDocs", "deploySite")
-        }
-        tasks.register<Copy>("copyDocs") {
-            val targetDir = File(project.projectDir, "docs")
-            doFirst {
-                println("Local copy to: $targetDir")
-            }
-            from(Locations.htmlBuildOutput)
-            into(targetDir)
-        }
-        tasks.register<Copy>("deploySite") {
-            doFirst {
-                println("Local deploy to: ${LocalTarget.localWebRoot}")
-            }
-            from(Locations.htmlBuildOutput)
-            into(LocalTarget.localWebRoot)
-        }
-    }
-    RemoteTarget -> tasks.create<FtpDeployTask>("deploy") {
-        ftpUrl = "f34-preview.awardspace.net"
-        username = "3886058_cpsycho"
-        (System.getenv("PSYWIKI_FTP_PASSWORD") as? String)?.let {
-            password = it!!
-        }
-        remoteUploadDirectory = "/taijiwiki.scienceontheweb.net"
-        localBuildDirectory = Locations.htmlBuildOutput.absolutePath
-    }
+tasks.register<GradleBuild>("deploy") {
+    tasks = listOf("copyLocalDocs", "deployLocalSite")
 }
 
-// ./gradlew -q linkChecker
+tasks.register<Copy>("copyLocalDocs") {
+    val targetDir = File(project.projectDir, "docs")
+    doFirst {
+        println("Local copy to: $targetDir")
+    }
+    from(Locations.htmlBuildOutput)
+    into(targetDir)
+}
+
+tasks.register<Copy>("deployLocalSite") {
+    doFirst {
+        println("Local deploy to: ${LocalTarget.localWebRoot}")
+    }
+    from(Locations.htmlBuildOutput)
+    into(LocalTarget.localWebRoot)
+}
+
 tasks.create<LinkCheckerTask>("linkChecker") {
     localBuildDirAbsPath = Locations.htmlBuildOutput.absolutePath
     websiteHomePagePath = "/index.html"
     linkCheckIgnore = setOf()
-    checkTarget = target.id
 }

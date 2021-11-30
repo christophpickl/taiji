@@ -1,12 +1,12 @@
+https://christophpickl.github.io/taijiwiki/
+
 # Gradle Builds
 
 * `build`: trigger asciidoc HTML generation
 * `deploy`: FTP upload
 * `linkCheck`: online checks all links
 
-ATTENTION: When deploy remotely, get sure you have defined the `PSYWIKI_FTP_PASSWORD` environment variable.
-
-# TODO
+# TODO content
 
 * dao de jing quotes
 * "talk about other masters": 1) good 2) tries hard 3) don't understand

@@ -13,10 +13,10 @@ sealed class Target(
 
 object LocalTarget : Target(
     id = "local",
-    websiteBaseUrl = "http://localhost/~cpickl/taiji",
+    websiteBaseUrl = "",
 ) {
     @Suppress("MayBeConstant") // used in build.gradle.kts
-    const val localWebRoot = "/Users/cpickl/Sites/taiji"
+    const val localWebRoot = "/Users/cpickl/Sites/taijiwiki"
 
     //    val localWebRoot = "/Library/WebServer/Documents/"
     override fun toString(): String = javaClass.simpleName
