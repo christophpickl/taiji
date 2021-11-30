@@ -40,12 +40,25 @@ tasks.build {
 }
 
 when (target) {
-    LocalTarget -> tasks.register<Copy>("deploy") {
-        doFirst {
-            println("Local deploy to: ${LocalTarget.localWebRoot}")
+    LocalTarget -> {
+        tasks.register<GradleBuild>("deploy") {
+            tasks = listOf("copyHtml", "deploySite")
         }
-        from(Locations.htmlBuildOutput)
-        into(LocalTarget.localWebRoot)
+        tasks.register<Copy>("copyHtml") {
+            val targetDir = File(project.projectDir, "html")
+            doFirst {
+                println("Local deploy to: $targetDir")
+            }
+            from(Locations.htmlBuildOutput)
+            into(targetDir)
+        }
+        tasks.register<Copy>("deploySite") {
+            doFirst {
+                println("Local deploy to: ${LocalTarget.localWebRoot}")
+            }
+            from(Locations.htmlBuildOutput)
+            into(LocalTarget.localWebRoot)
+        }
     }
     RemoteTarget -> tasks.create<FtpDeployTask>("deploy") {
         ftpUrl = "f34-preview.awardspace.net"
@@ -53,7 +66,6 @@ when (target) {
         (System.getenv("PSYWIKI_FTP_PASSWORD") as? String)?.let {
             password = it!!
         }
-        // TODO register host: https://cp1.awardspace.net/start/
         remoteUploadDirectory = "/taijiwiki.scienceontheweb.net"
         localBuildDirectory = Locations.htmlBuildOutput.absolutePath
     }
