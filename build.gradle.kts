@@ -42,10 +42,10 @@ tasks.build {
 when (target) {
     LocalTarget -> {
         tasks.register<GradleBuild>("deploy") {
-            tasks = listOf("copyHtml", "deploySite")
+            tasks = listOf("copyDocs", "deploySite")
         }
-        tasks.register<Copy>("copyHtml") {
-            val targetDir = File(project.projectDir, "html")
+        tasks.register<Copy>("copyDocs") {
+            val targetDir = File(project.projectDir, "docs")
             doFirst {
                 println("Local deploy to: $targetDir")
             }
