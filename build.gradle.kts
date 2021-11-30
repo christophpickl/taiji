@@ -47,7 +47,7 @@ when (target) {
         tasks.register<Copy>("copyDocs") {
             val targetDir = File(project.projectDir, "docs")
             doFirst {
-                println("Local deploy to: $targetDir")
+                println("Local copy to: $targetDir")
             }
             from(Locations.htmlBuildOutput)
             into(targetDir)
