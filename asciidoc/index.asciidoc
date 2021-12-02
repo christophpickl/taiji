@@ -4,12 +4,21 @@
 
 Along my path of a Taijiquan practitioner I cam along many, many fascinating details about this amazing martial art. This is an attempt to collect and persist some of it. For my own purpose and also to share with you.
 
+// TODO what is this about? why? what to expect, what not? goal on how to write?
+//mehr theoretisch/analytisch; compensating lack of didaktik
+//skills; klassische fragen von schueler covern; moeglichst stil offen, prinzip wichtig (nicht praezise
+//positionierungen, das ist mehr konkrete strategie); building bridges to modern science (psychologie, neuroscience;
+//entscheidung bevor wir bewusst sind)
+//* christoph's taiji wiki, intention: mein wissen persistieren; meine persoenliche meinung/erfahrung, keine
+//universellheit/umfassend, kein allgemeines wiki schaffbar (und hab auch nicht die kompetenz), zuviel parallstehende
+//meinungen (die widersprechen); nicht alle stile;
+
 image::taiji_logo.png[Taijitu,100,100]
 
 == Content
 
-* link:forms/index.html[Forms] - The core of Taijiquan practice are its solo forms, a sequence of movements, something like Japanese Katas yet different.
-* History - Understanding the past of Taijiquan helps to understand why it is where it is of today.
+* link:forms.html[Forms] - The core of Taijiquan practice are its solo forms, a sequence of movements, something like Japanese Katas yet different.
+* link:history.html[History] - Understanding the past of Taijiquan helps to understand why it is where it is of today.
 * link:theory.html[Theory] - Half practice, half theory, especially as Taijiquan is a form of applied philosophy, it is crucial to have a deeper understanding of it's theoretical foundation.
 * link:styles.html[Styles] - Different family traditions have led to different formal schools with different emphasize.
 * link:resources.html[Resources] - Some recommendable books, websites, videos; partly used as sources for this wiki.
