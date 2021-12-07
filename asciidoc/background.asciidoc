@@ -1,0 +1,117 @@
+= Background
+
+History, technicalities, philosophical fundament.
+
+.YouTube Video: "Hilarious: Master Ken's message for Paris and opinion about Taijiquan"
+[link=https://www.youtube.com/watch?v=mK6Fx-bzPu4]
+image::https://img.youtube.com/vi/mK6Fx-bzPu4/0.jpg[Master Ken about Taijiquan 3,300]
+
+== Basics
+
+So what is Taijiquan actually? Besides of the obvious answer of being a Chinese Martial Art, the following could be said about it:
+
+* *Martial Art*: "Quan" meaning literally "fist" indicating its boxing nature where it has its roots and all movements still are related to.
+* *Applied Philosophy*: As the art is based on philosophy, it could be considered as "_Daoism in movement_", experiencing it rather intellectually grasping it, with its application more suited in daily life.
+* *Gentle Workout*: Through exercises which could be related to health gymnastics, improving balance and overall body awareness, as well as strengthening and lengthening muscles for the spiral movements characteristic especially in link:styles.html#sec-chen[Chen style].
+* *Self Cultivation*: Through the diligent practice (Gong Fu) it nourishes the body and the mind, similar what is Qi Gong, ultimately striving for eternal life.
+* *Dynamic Meditation*: A form of mindfulness praxis, working with attention and intention, requiring high level of focus, and all this in movement rather being static, in a still position.
+* *Spiritual Practice*: It is said to allow to experience the philosophical foundation, to understand and connect to the universal forces. Also called the "small path", leading to the "big path", the Dao.
+
+Next to Taijiquan being a martial art, it can be considered:
+
+As my teacher likes to see it, its for him a "MacGyver tool for everything", like a swizz knife, no need to have several single tools for different aspects, but rather there is nothing which it doesn't impact: Health, communication, fitness, self-care, how to learn/do/think, ... all the universal and fundamental skills needed in live a life worth living.
+
+=== Name
+
+*Taijiquan*, or mostly shortened to just *Taiji*, is the correct way of writing it based on the current, official link:https://en.wikipedia.org/wiki/Pinyin[Pinyin ]transcription system published by the Chinese government in the 1950s. You might come across quite often outdated written forms like *Tai Chi Chuan* or *Taichiquan* or *T'ai chi ch'ūan* which all basically referred to the same, but using the old, outdated link:https://en.wikipedia.org/wiki/Wade%E2%80%93Giles[Wade-Giles] transcription system. A transcription system tries to transfer the Chinese written language (the symbol doesn't relate to the way it is pronounced) into our phonetic writing systems, which can be quite a hard task to do because of the differences.
+
+Literally it can be translated to *Principle of Yin and Yang*. To be precise:
+
+* *Tai* - Supreme ultimate; like the main, center pole of a building holding the roof in its place.
+* *Ji* - Principle.
+* *Quan* - Literally fist, referring to boxing, or martial arts in general.
+
+The name Taijiquan is actually very recent invention (20th century) as it had many different names before that, along: Long boxing, shadow boxing, etc.
+
+=== Symbol
+
+.link:https://en.wikipedia.org/wiki/Taijitu[Taijitu] represents the Taiji principle
+image::taiji_logo.png[Taijitu,200,200]
+
+The complementary forces of Yin and Yang depicted in the most famous Taijitu. The dots represent the Yin in the Yang (and vice versa), also called "fish eyes" of the fish. The circle itself representing the principle of _Wuji_.
+
+== Martial Art
+
+Taijiquan is a so-called internal martial art (_neijia_), referring to its emphasize on developing soft, internal energy (_jin_) rather than rigid, brute external force (_li_). And also for it's past secrecy, being taught only to people within (the family, the clan) in order to keep it inside.
+
+The other two "sister internal Martial Arts" in China are: Baguaquan and Xingyiquan. Taijiquan being more focused on the center/middle part of the body, Baguaquan known for its circular footwork on the lower part, and Xingyiquan on the upper part (fists and arms). Making the three Arts a complete system covering the whole body.
+
+== Philosophy
+
+Chinese martial arts (as well as the culture in general) are built upon three basic philosophical streams:
+
+. Daoism
+. Confucianism
+. (Chan) Buddhism
+
+=== Daoism
+
+The essence of this spiritual/philosophical, and formerly religious, system is to live in harmony with the "Dao" (also formerly written as "Tao").
+
+.This chinese symbol is indicating something like "path" or "way".
+image::dao.png[Dao,200,200]
+
+==== Classics
+
+"_The Dao that can be spoken is not the enduring and unchanging Dao._" - Chapter 1, *Daodejing* (or "Tao Te Ching"), the "bible" of Daoism by the legendary founder Laozi
+
+Similar to our understanding of God, which has no name, because a name would be a definition, a restriction, a limitation, but these ideas are beyond mental concepts.
+
+Next the Zhuangzi (formerly "Chuang Tzu"), by Master Zhuang, is a collection of stories about the carefree nature of the ideal Daoist sage. The book is written in a very humorous way, less concerned about moral or personal duty (opposed to Confucianism in general), making fun of people's serious distinction between good-and-bad, large-and-small, life-and-death, and doing this by following the way of nature.
+
+Finally the Daodejing, one of the oldest books in Daoism is the *Yi Jing* (or "I Ching"), meaning "Book of Changes" which could be seen as an oracle which can be used as a fortune teller, containing the first mentioning of the Yin and Yang principle. Furthermore it's the basis for the Wu Xing (the five phases) and contains the "Hexagrams", a combination of Yin-Yang lines each indicating another concept. By throwing bones (short and long ones) the fortune could be told by looking up the combination in the book.
+
+=== Confucianism
+
+A system originating back to Confucius which is more concerned with politics and specific moral values. It emphasizes order in society with its hierarchies, respecting the elders and putting the youngers in their orderly place.
+
+=== Buddhism
+
+Actually an Indian system, it was early on exported to China and as such assimilated into the Chinese culture. Much of Buddhist basic principles can be found in other systems, indicating that it had a major influence in other similar religions.
+= Styles
+
+== Styles
+
+Taijiquan used to be a secret family tradition, passed only within family (or clan) members. Outsiders were strictly forbidden to be initiated in the martial arts of the family. After a few centuries of development, a few major (family) styles have emerged, which are:
+
+* Chen
+* Yang
+* Sun
+* Wu/Hao
+* Wu
+
+// TODO see: https://www.aiping-taichi.com/tai-chi.html
+// https://www.ptcc.dk/en/what-is-tai-chi/the-other-styles-of-tai-chi-chuan/
+
+They all are different in age and emphasize, in difficulty and popularity, yet they all share the same principle, they Taiji principle.
+
+[#sec-chen]
+=== Chen
+
+Original style.
+
+=== Yang
+
+Most popular.
+
+=== Sun
+
+TODO.
+
+=== Wu/Hao
+
+TODO.
+
+=== Wu
+
+TODO.

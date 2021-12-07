@@ -17,8 +17,7 @@ image::taiji_logo.png[Taijitu,100,100]
 
 == Content
 
+* link:background.html[Background] - The history, its origins, as well as the background of where it originated from, along with some technical details will help you to deepen your understanding.
+* link:theory.html[Theory] - Half practice, half theory, especially as Taijiquan is a form of applied philosophy, it is crucial to have a deeper understanding of its theoretical foundation.
 * link:forms.html[Forms] - The core of Taijiquan practice are its solo forms, a sequence of movements, something like Japanese Katas yet different.
-* link:history.html[History] - Understanding the past of Taijiquan helps to understand why it is where it is of today.
-* link:theory.html[Theory] - Half practice, half theory, especially as Taijiquan is a form of applied philosophy, it is crucial to have a deeper understanding of it's theoretical foundation.
-* link:styles.html[Styles] - Different family traditions have led to different formal schools with different emphasize.
 * link:resources.html[Resources] - Some recommendable books, websites, videos; partly used as sources for this wiki.
